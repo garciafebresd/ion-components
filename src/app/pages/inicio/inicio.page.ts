@@ -18,12 +18,16 @@ export class InicioPage implements OnInit {
       icon: 'american-football',
       name: 'action sheet',
       redirecTo: '/action-sheet'
-    }
-    ,
+    },
     {
       icon: 'beaker',
       name: 'avatar',
       redirecTo: '/avatar'
+    },
+    {
+      icon: 'radio-outline',
+      name: 'botones y router',
+      redirecTo: '/button'
     }
   ];
 
