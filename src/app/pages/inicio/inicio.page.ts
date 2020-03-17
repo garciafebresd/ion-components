@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Componente } from '../../interfaces/componente.interface';
 
 @Component({
   selector: 'app-inicio',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicioPage implements OnInit {
 
-  components: Component[] = [
+  components: Componente[] = [
     {
       icon: 'alert-circle-outline',
       name: 'alert',
@@ -25,10 +26,4 @@ export class InicioPage implements OnInit {
   ngOnInit() {
   }
 
-}
-
-interface Component {
-  icon: string;
-  name: string;
-  redirecTo: string;
 }
