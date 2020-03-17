@@ -19,6 +19,12 @@ export class InicioPage implements OnInit {
       name: 'action sheet',
       redirecTo: '/action-sheet'
     }
+    ,
+    {
+      icon: 'beaker',
+      name: 'avatar',
+      redirecTo: '/avatar'
+    }
   ];
 
   constructor() { }
