@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DatetimePage implements OnInit {
 
+  fechaNacimiento: Date = new Date();
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  cambioFecha(event) {
+    console.log('change', event);
+    console.log('change', new Date(event.detail.value));
+  }
 }

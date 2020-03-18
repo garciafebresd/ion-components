@@ -1,9 +1,15 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>datetime</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header title="Datetime"></app-header>
 
 <ion-content>
 
+    <ion-list-header>
+        <ion-label>Datos de nacimiento</ion-label>
+    </ion-list-header>
+
+    <ion-list>
+        <ion-item>
+            <ion-label>Fecha de Nacimiento</ion-label>
+            <ion-datetime placeholder="nacimiento" display-format="YYYY MMMM DD" cancelText="Cancelar!!" [ngModel]="fechaNacimiento.toISOString()" (ionChange)="cambioFecha($event)"></ion-datetime>
+        </ion-item>
+    </ion-list>
 </ion-content>
