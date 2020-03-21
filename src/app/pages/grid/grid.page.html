@@ -1,9 +1,42 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>grid</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header title="Grid"></app-header>
 
-<ion-content>
+<ion-content class="ion-padding">
+
+    <ion-grid>
+        <!-- <ion-row>
+            <ion-col>
+                Hola
+            </ion-col>
+            <ion-col>
+                Hola
+            </ion-col>
+            <ion-col>
+                Hola
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col *ngFor="let c of [1,1,1,1,1,1,1,1,1,1,1,1]; let i = index">
+                {{i+1}}
+            </ion-col>
+        </ion-row> -->
+
+        <ion-row>
+            <ion-col *ngFor="let c of [1,1,1,1,1,1,1,1,1,1,1,1]; let i = index">
+                <ion-card>
+                    <ion-img src="/assets/shapes.svg"></ion-img>
+
+                    <ion-card-header>
+                        <ion-card-subtitle>Card Title</ion-card-subtitle>
+                        <ion-card-title>Card Subtitle</ion-card-title>
+                    </ion-card-header>
+
+                    <ion-card-content>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos recusandae, consequatur id iusto ut eveniet quo? Molestias natus obcaecati ullam ex voluptas reiciendis eos, neque fugit sint, eligendi minus eius!
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
 
 </ion-content>
