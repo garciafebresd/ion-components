@@ -1,0 +1,76 @@
+[{
+        "icon": "alert-circle-outline",
+        "name": "alert",
+        "redirecTo": "/alert"
+    },
+    {
+        "icon": "american-football",
+        "name": "action sheet",
+        "redirecTo": "/action-sheet"
+    },
+    {
+        "icon": "beaker",
+        "name": "avatar",
+        "redirecTo": "/avatar"
+    },
+    {
+        "icon": "radio-outline",
+        "name": "botones y router",
+        "redirecTo": "/button"
+    },
+    {
+        "icon": "card",
+        "name": "Cards",
+        "redirecTo": "/card"
+    },
+    {
+        "icon": "checkbox-outline",
+        "name": "Checkbox",
+        "redirecTo": "/checkbox"
+    },
+    {
+        "icon": "calendar",
+        "name": "Datetime",
+        "redirecTo": "/datetime"
+    },
+    {
+        "icon": "cloud",
+        "name": "Fab",
+        "redirecTo": "/fab"
+    },
+    {
+        "icon": "grid",
+        "name": "Grid",
+        "redirecTo": "/grid"
+    },
+    {
+        "icon": "infinite",
+        "name": "Infinite Scroll",
+        "redirecTo": "/infinite-scroll"
+    },
+    {
+        "icon": "bookmark",
+        "name": "Inputs y forms",
+        "redirecTo": "/input"
+    },
+    {
+        "icon": "list",
+        "name": "List",
+        "redirecTo": "/list"
+    },
+    {
+        "icon": "reorder-four",
+        "name": "List Reorder",
+        "redirecTo": "/list-reorder"
+    },
+    {
+        "icon": "reload-circle",
+        "name": "Loading",
+        "redirecTo": "/loading"
+    },
+    {
+        "icon": "phone-portrait",
+        "name": "Modal",
+        "redirecTo": "/modal"
+    }
+]

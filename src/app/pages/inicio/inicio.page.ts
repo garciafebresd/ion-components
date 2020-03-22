@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Componente } from '../../interfaces/componente.interface';
+import { MenuController } from '@ionic/angular';
+import { Observable } from 'rxjs';
+import { DataService } from '../../services/data.service';
 
 @Component({
   selector: 'app-inicio',
@@ -8,57 +11,17 @@ import { Componente } from '../../interfaces/componente.interface';
 })
 export class InicioPage implements OnInit {
 
-  components: Componente[] = [
-    {
-      icon: 'alert-circle-outline',
-      name: 'alert',
-      redirecTo: '/alert'
-    },
-    {
-      icon: 'american-football',
-      name: 'action sheet',
-      redirecTo: '/action-sheet'
-    },
-    {
-      icon: 'beaker',
-      name: 'avatar',
-      redirecTo: '/avatar'
-    },
-    {
-      icon: 'radio-outline',
-      name: 'botones y router',
-      redirecTo: '/button'
-    },
-    {
-      icon: 'card',
-      name: 'Cards',
-      redirecTo: '/card'
-    },
-    {
-      icon: 'checkbox-outline',
-      name: 'Checkbox',
-      redirecTo: '/checkbox'
-    },
-    {
-      icon: 'calendar',
-      name: 'Datetime',
-      redirecTo: '/datetime'
-    },
-    {
-      icon: 'cloud',
-      name: 'Fab',
-      redirecTo: '/fab'
-    },
-    {
-      icon: 'grid',
-      name: 'Grid',
-      redirecTo: '/grid'
-    }
-  ];
+  components: Observable<Componente[]>;
 
-  constructor() { }
+  constructor(private menuController: MenuController,
+              private dataService: DataService) { }
 
   ngOnInit() {
+    this.components = this.dataService.getMenuOptions();
+  }
+
+  toggleMenu() {
+    this.menuController.toggle();
   }
 
 }

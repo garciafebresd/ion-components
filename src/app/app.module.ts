@@ -11,6 +11,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { ComponentsModule } from './components/components.module';
 import { FiltroPipe } from './pipes/filtro.pipe';
 
+import { HttpClientModule } from "@angular/common/http";
+
 @NgModule({
   declarations: [AppComponent, FiltroPipe],
   entryComponents: [],
@@ -18,7 +20,8 @@ import { FiltroPipe } from './pipes/filtro.pipe';
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    HttpClientModule
   ],
   providers: [
     StatusBar,

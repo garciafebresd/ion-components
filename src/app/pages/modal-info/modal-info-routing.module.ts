@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { CommonModule } from "@angular/common";
+import { FormsModule } from '@angular/forms';
+
+import { IonicModule } from '@ionic/angular';
 
 import { ModalInfoPage } from './modal-info.page';
 
-const routes: Routes = [
-  {
-    path: '',
-    component: ModalInfoPage
-  }
-];
-
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule],
+  imports: [
+    CommonModule,
+    FormsModule,
+    IonicModule
+  ],
+  exports: [],
 })
 export class ModalInfoPageRoutingModule {}

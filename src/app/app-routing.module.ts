@@ -52,10 +52,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/list/list.module').then( m => m.ListPageModule)
   },
   {
-    path: 'item-sliding',
-    loadChildren: () => import('./pages/item-sliding/item-sliding.module').then( m => m.ItemSlidingPageModule)
-  },
-  {
     path: 'loading',
     loadChildren: () => import('./pages/loading/loading.module').then( m => m.LoadingPageModule)
   },
@@ -74,10 +70,6 @@ const routes: Routes = [
   {
     path: 'list-reorder',
     loadChildren: () => import('./pages/list-reorder/list-reorder.module').then( m => m.ListReorderPageModule)
-  },
-  {
-    path: 'modal-info',
-    loadChildren: () => import('./pages/modal-info/modal-info.module').then( m => m.ModalInfoPageModule)
   },
   {
     path: 'popover',
