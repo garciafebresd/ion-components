@@ -14,22 +14,22 @@ export class PopoverPage implements OnInit {
   ngOnInit() {
   }
 
-  // async mostrarPop( evento ) {
+  async mostrarPop( evento ) {
 
-  //   const popover = await this.popoverCtrl.create({
-  //     component: PopinfoComponent,
-  //     event: evento,
-  //     mode: 'ios',
-  //     backdropDismiss: false
-  //   });
+    const popover = await this.popoverCtrl.create({
+      component: PopinfoComponent,
+      event: evento,
+      mode: 'ios',
+      backdropDismiss: false
+    });
 
-  //   await popover.present();
+    await popover.present();
 
-  //   // const { data } = await popover.onDidDismiss();
-  //   const { data } = await popover.onWillDismiss();
+    // const { data } = await popover.onDidDismiss();
+    const { data } = await popover.onWillDismiss();
 
-  //   console.log('Padre:', data );
+    console.log('Padre:', data );
 
-  // }
+  }
 
 }

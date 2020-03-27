@@ -1,77 +1,77 @@
 [{
         "icon": "alert-circle-outline",
         "name": "alert",
-        "redirecTo": "/alert"
+        "redirectTo": "/alert"
     },
     {
         "icon": "american-football",
         "name": "action sheet",
-        "redirecTo": "/action-sheet"
+        "redirectTo": "/action-sheet"
     },
     {
         "icon": "beaker",
         "name": "avatar",
-        "redirecTo": "/avatar"
+        "redirectTo": "/avatar"
     },
     {
         "icon": "radio-outline",
         "name": "botones y router",
-        "redirecTo": "/button"
+        "redirectTo": "/button"
     },
     {
         "icon": "card",
         "name": "Cards",
-        "redirecTo": "/card"
+        "redirectTo": "/card"
     },
     {
         "icon": "checkbox-outline",
         "name": "Checkbox",
-        "redirecTo": "/checkbox"
+        "redirectTo": "/checkbox"
     },
     {
         "icon": "calendar",
         "name": "Datetime",
-        "redirecTo": "/datetime"
+        "redirectTo": "/datetime"
     },
     {
         "icon": "cloud",
         "name": "Fab",
-        "redirecTo": "/fab"
+        "redirectTo": "/fab"
     },
     {
         "icon": "grid",
         "name": "Grid",
-        "redirecTo": "/grid"
+        "redirectTo": "/grid"
     },
     {
         "icon": "infinite",
         "name": "Infinite Scroll",
-        "redirecTo": "/infinite-scroll"
+        "redirectTo": "/infinite-scroll"
     },
     {
         "icon": "bookmark",
         "name": "Inputs y forms",
-        "redirecTo": "/input"
+        "redirectTo": "/input"
     },
     {
         "icon": "list",
         "name": "List",
-        "redirecTo": "/list"
+        "redirectTo": "/list"
     },
     {
         "icon": "reorder-four",
         "name": "List Reorder",
-        "redirecTo": "/list-reorder"
+        "redirectTo": "/list-reorder"
     },
     {
         "icon": "reload-circle",
         "name": "Loading",
-        "redirecTo": "/loading"
+        "redirectTo": "/loading"
     },
     {
         "icon": "phone-portrait",
         "name": "Modal",
-        "redirecTo": "/modal"
+        "redirectTo": "/modal"
     },
     {
         "icon": "tablet-portrait",
@@ -81,7 +81,7 @@
     {
         "icon": "code-working",
         "name": "ProgressBar y Range",
-        "redirectTo": "/progress-bar"
+        "redirectTo": "/progress-bar-range"
     },
     {
         "icon": "arrow-down",
