@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TabsPageRoutingModule } from './tabs-routing.module';
+import { SlidesPageRoutingModule } from './slides-routing.module';
 
-import { TabsPage } from './tabs.page';
+import { SlidesPage } from './slides.page';
 import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from '../../components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    TabsPageRoutingModule,
+    SlidesPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [TabsPage]
+  declarations: [SlidesPage]
 })
-export class TabsPageModule {}
+export class SlidesPageModule {}
